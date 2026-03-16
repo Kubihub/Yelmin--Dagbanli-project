@@ -2,7 +2,7 @@
 ## Phase 1: Problem Definition & Rationale
  "Why." This section explains the purpose of the project to non-technical stakeholders or future collaborators.
 
-Project Title: Dagbani Language Identification (LID) for Inclusive AI.
+Project Title: Dagbani Language Identification (LID) for Inclusive AI.(Yelmin-Dagbanli-project)
 
 The Mission: To build an automated system that recognizes the Dagbani language, acting as the "entry point" for a voice-based chatbot.
 
