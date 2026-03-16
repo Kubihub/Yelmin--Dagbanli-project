@@ -1,6 +1,6 @@
 # Yelmin--Dagbanli-project
 ## Phase 1: Problem Definition & Rationale
-Document the "Why." This section explains the purpose of the project to non-technical stakeholders or future collaborators.
+ "Why." This section explains the purpose of the project to non-technical stakeholders or future collaborators.
 
 Project Title: Dagbani Language Identification (LID) for Inclusive AI.
 
@@ -11,7 +11,7 @@ Linguistic Context: Document that Dagbani is a Gur language spoken in Northern G
 Dataset Source: Formally cite the WAXAL Dataset (2026) and the specific subset (dag_asr).
 
 ## Phase 2: Data Exploration & Preprocessing
-Document the "How." Here, you describe the raw material you are working with.
+ "How." Here, contains the raw material we will be working with.
 
 Dataset Statistics: Record the number of audio clips you are using.
 
@@ -24,11 +24,11 @@ Note for your docs: "We chose Mel Spectrograms because they mimic how the human 
 ## Phase 3: Model Architecture & Training
 Document the "Brain." This is where you explain the technical choices.
 
-Model Selection: Are you using a Simple CNN, a Random Forest, or fine-tuning a pre-trained model like Wav2Vec2?
+Model Selection: We will start with a Simple CNN, and a Random Forest, then we move to fine-tuning a pre-trained model like Wav2Vec2.
 
-The Comparison Group: In Language Classification, you need a "distractor" language. Document which one you chose (e.g., Akan or English) to test if the model can tell them apart.
+The Comparison Group: In Language Classification, you need a "distractor" language. Document which one you chose (English) to test if the model can tell them apart.
 
-Training Parameters: Document your Learning Rate, Batch Size, and Epochs. (Don't worry, I will help you set these when we get to the code).
+Training Parameters: Document the Learning Rate, Batch Size, and Epochs. 
 
 ## Phase 4: Evaluation & Ethical Reflection
 Document the "Results." How well does it actually work?
