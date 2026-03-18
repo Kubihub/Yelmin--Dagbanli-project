@@ -328,6 +328,7 @@ clean_dag = X[0]
 
 # 2. Extract features from your WhatsApp file (we'll assume it's saved as 'test.mp4')
 test_audio, _ = librosa.load("WhatsApp Audio 2026-03-17 at 1.14.34 AM.mp4", sr=16000)
+#the audio was transfered using whatsapp
 test_dag = extract_features(test_audio)
 
 # Plot side-by-side
